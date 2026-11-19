@@ -1,0 +1,15 @@
+{
+  "name": "naukri-refresh",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "node login.ts",
+    "refresh": "node refresh.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^10.6.0",
+    "playwright": "^1.56.0"
+  }
+}
